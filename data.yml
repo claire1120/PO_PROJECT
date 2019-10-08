@@ -1,0 +1,50 @@
+#name: "DevilNight"
+#
+#- 1
+#- 2
+#- 3
+
+#name: "lalaal"
+#people:
+#  nd: "sdjnc"
+#  nf: "cdvcw"
+
+#
+#name: "lalaal"
+#people:
+#  - 1
+#  - 2
+#  - 3
+
+
+#- name: "claire"
+#- 1
+#- 2
+
+
+#-
+# - 1
+# - 2
+# - 3
+#- 5
+#- 6
+
+#空值: '王烽'
+#日期 : 09:13:49
+
+#Search_Data:
+#  search_test_001:
+#   value: 456
+#   expect: [4,5,6]
+#  search_test_002:
+#    value: "你好"
+#    expect: {"value":"你好"}
+信息:
+ 王烽: &info
+  儿子: "王占占"
+ 占玉萍:
+  <<: *info
+
+#
+#- 1
+#- 2
